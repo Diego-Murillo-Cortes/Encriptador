@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Encriptadorstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagenes/alura.png" alt="logo de alura" >
+    </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingresa el texto aqui..."></textarea>
+                <div>
+                    <img class= "logoInformacion" src="alerta.png" style="float: left; margin-right: 10px;">
+                    <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+                  </div>
+                <div class="botones">
+                    <button class="botonEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="botonDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section>
+            <textarea class="mensaje" cols="20" rows="6" placeholder="Ningún mensaje fue encontrado     
+Ingresa el texto que desees Encriptar o Desencriptar"></textarea>
+                
+            <div>
+                <button style="display: none;" class="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+            </section>
+        </main>
+<script src="script.js"></script>   
+</body>
+
+<footer>
+    <div class="enlaces">
+    <p>Desarrollado por <strong style="font-size: 50px;">Diego Murillo Cortes</strong> 
+    <br>Curso Principiante en Programacion
+    <br>Alura LATAM 
+    <br>ORACLE ONE Grupo 7
+    <br>Email: dimuco2011@hotmail.com</p>
+        <nav>
+        <h2 class="misRedesSociales">Mis Redes Sociales:</h2>
+        <a class ="estilo_enlances" target="_blank" href="https://www.facebook.com/dimuco" > <img src="facebook.png" width="50"> Facebook </a> <!--Hipervinculo en otra pestaña para abir en la misma se quita el _blank-->
+        <a class ="estilo_enlances" target="_blank" href="https://www.instagram.com/diegomurillocortes/" > <img src="instagram.png" width="50"> Instagram </a> 
+        <a class ="estilo_enlances" target="_blank" href="https://www.linkedin.com/in/diego-murillo-cortés-sistemas"> <img src="linkedin.jpg" alt="linkedin" width="50"> Linkin</a>
+        <a class ="estilo_enlances" target="_blank" href="https://github.com/Diego-Murillo-Cortes"> <img src="github.png" alt="github" width="50"> Git Hub</a>
+        </nav>
+    </div>
+</footer>
+</html>

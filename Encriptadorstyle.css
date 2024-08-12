@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    background-image: url(fondo.png);
+        font-family: 'Inter';
+    font-weight: 450;
+    font-size: 32Px;  
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 30px;
+    width: 5%;
+    border-radius: 50%;
+    
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+   
+    
+}
+
+.text-area{
+    border: none;
+    color: white;
+    text-transform: lowercase;
+    margin-left: 20%;
+    height: auto;
+    width: 80%;
+    height: 20%;
+    margin-top: 5%;
+    max-width: 60%;
+
+}
+
+::placeholder {color: white;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: white;
+    background-image: url("imagensalida.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 10%;
+    margin-top: -10%;
+    text-align: center;
+    padding-top: 85%;
+    border: 5px solid #51ff00;
+}
+
+.mensaje::placeholder{
+    color: black;
+    font-size: 1em;
+    font-family: 'Inter';
+    font-weight: bold;
+    
+}
+
+.texto-mensaje{
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin: auto;
+    text-align:justify;
+    
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 1.5em;
+    margin-left: 20%;
+}
+.botonEncriptar{
+    background: green;
+    border: 5px solid #51ff00;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.botonDesencriptar{
+    background: #113802;
+    border: 1px solid #0a3871;
+    border: 5px solid #51ff00;
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 5px solid #51ff00;
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 40%;
+    margin-top: 100px;
+    width: 336px;
+}
+
+.informacion{
+    color: white;
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.logoInformacion{
+    margin-left: 20%;
+    width: 6%;
+    border-radius: 80px;
+    
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+     
+}
+
+.misRedesSociales {
+    font-size: 100%;
+    font-weight: 900;
+    text-decoration:none;
+    gap: 10px;
+}
+
+.estilo_enlances {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    height: 100%;
+    justify-content: space-between;
+    text-align: center; 
+    padding: 5%; 
+    border-radius: 25px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    font-weight: 900;
+    text-decoration: none; 
+    color: white;
+    border: 5px solid #51ff00;
+    
+    gap: 10%;
+}
+
+.estilo_enlances:hover{ 
+    background-color: gray;
+    padding: 3%;
+}
+
+footer {
+    width: 80%;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 10%; 
+    }
+    .text-area {
+        font-size: 14px; 
+    }
+    .botones {
+        flex-direction: column;
+        align-items: center;
+        margin-left: -10%; 
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+}
+
+
+@media (min-width: 1024px) {
+    
+}
