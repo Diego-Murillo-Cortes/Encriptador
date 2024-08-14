@@ -1,5 +1,3 @@
-# Encriptador
-
 <h1>Encriptador</h1>
 <p>Encripta un mensaje y envíaselo a un amigo, él debe Des-encriptarlo para leerlo </p>
 
